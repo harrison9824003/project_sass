@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/base-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/all.css"> 
+</head>
+<body>
+    <nav class="container d--flex position-relative">
+        <a class="logo" href="./index.html">
+            <picture>
+                <source media="(min-width: 576px)" srcset="./images/logo-all-dark@2x.png">
+                <img src="./images/logotype-lg-dark@2x.png" alt="">
+            </picture>
+        </a>
+        <div class="ms--auto nav--list--out d--flex">
+            <div class="nav--list--btn flex--slef--center nav--btn--js"><i class="bi bi-list "></i></div>
+            <ul class="nav nav--list text--primary">
+                <li class="nav--list-item"><a href="./index.html">首頁</a></li>
+                <li class="nav--list-item"><a href="./product.html">甜點</a></li>
+                <li class="nav--list-item"><a href="./login.html">登入</a></li>
+            </ul>
+        </div>
+        <a href="./cart.html" class="d--flex nav--list-item cart--btn"><i class="bi bi-cart3 flex--slef--center text--primary"></i></a>
+    </nav>
+    <section>
+        <div class="pure-g container-960">
+            <div class="checkout--block pure-u-lg-2-3 pure-u-1 px-3">
+                <div class="pure-g">
+                    <div class="pure-u-lg-1-2 pure-u-1 checkout--title">
+                        運送
+                    </div>
+                    <div class="pure-u-lg-1-2 pure-u-1 d--flex flex--item--center flex--justify-center position-relative">
+                        <div style="width: 100%; height: 1px;background-color: #fff;"></div>
+                        <span class="step--item left-0 done"><i class="bi bi-check-circle-fill"></i></span>
+                        <span class="step--item left-50 done"><i class="bi bi-check-circle-fill"></i></span>
+                        <span class="step--item left-100 active"><i class="bi bi-circle-fill"></i></span>
+                    </div>
+                    <div class="pure-u-1 p-3">
+                        <div class="pure-g nav--tab--wrapper">
+                            <a href="./checkout3-1.html" class="nav--tab--item pure-u-1-2 active">電子發票</a>
+                            <a href="./checkout3-2.html" class="nav--tab--item pure-u-1-2">郵寄發票</a>
+                        </div>                        
+                    </div>
+                    <div class="pure-u-1 p-3">
+                        <label for="intput1" class="form--label">電子郵件信箱</label>
+                        <input type="text" name="intput1" id="intput1" placeholder="example@email.com" class="form--input w-100 p-3">
+                    </div>
+                    <div class="pure-u-1 p-3">
+                        <label for="intput1" class="form--label">統一編號（選填）</label>
+                        <input type="text" name="intput1" id="intput1" placeholder="12345678" class="form--input w-100 p-3">
+                    </div>
+                    <div class="pure-u-1 p-3">
+                        <a href="./checkout-success.html" class="btn btn--secondary">確認結帳</a>
+                    </div>                    
+                </div>
+                
+            </div>
+            <div class="pure-u-lg-1-3 pure-u-1">
+                <div class="checkout--detail">
+                    <div class="checkout--detail--wrapper">
+                        <div class="checkout--detail--title">
+                            訂單摘要
+                        </div>
+                        <div class="checkout--detail--content">
+                            <ul>
+                                <li>
+                                    <p class="checkout--detail--item">小計</p>
+                                    <p class="checkout--detail--item">NT$ 2,700</p>
+                                </li>
+                                <li>
+                                    <p class="checkout--detail--item">運費</p>
+                                    <p class="checkout--detail--item">NT$ 300</p>
+                                </li>
+                                <li>
+                                    <p class="checkout--detail--items">總計</p>
+                                    <p class="checkout--detail--items">NT$ 3,000</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout--detail">
+                    <div class="checkout--detail--wrapper">
+                        <div class="checkout--detail--title">
+                            購物清單
+                        </div>
+                        <div class="checkout--detail--content">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <img src="https://bit.ly/2zBDAxX" class="checkout--detail--img" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="checkout--detail--item">小計</p>
+                                        <p class="checkout--detail--items">NT$ 2,700</p>
+                                    </div>                                    
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="https://bit.ly/2Qodh3Z" class="checkout--detail--img" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="checkout--detail--item">小計</p>
+                                        <p class="checkout--detail--items">NT$ 2,700</p>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="https://bit.ly/2R5tqwD" class="checkout--detail--img" alt="">
+                                    </div>
+                                    <div>
+                                        <p class="checkout--detail--item">小計</p>
+                                        <p class="checkout--detail--items">NT$ 2,700</p>
+                                    </div>    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <form action="" class="footer--search" onsubmit="javascript:return false;">
+            <div class="container-960 pure-g">
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--item--center flex--lg--justify-start flex--justify-center">
+                    <img src="images/logo-light@2x.png" class="footer--search--icon" alt="">
+                    <p class="text--lg d--inline--block">訂閱你我的甜蜜郵件</p>
+                </div>
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--item--center flex--lg--justify-end flex--justify-center">
+                    <div class="input--inside-icon">
+                        <i class="bi bi-envelope-open-fill input-icon"></i>
+                        <input type="text" class="form--input form--icon--input">
+                        <button type="submit" class="form--btn"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>            
+        </form>
+        <div class="footer--block bg--light">
+            <div class="container-960 pure-g">
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--column">
+                    <img src="images/logotype-lg-dark@2x.png" class="footer--titleImg" alt="">
+                    <p class="mt--auto text--primary fw-600 lh--lg f--address">
+                        07-1234-5678 <br> 
+                        sweetaste@email.com <br> 
+                        800 高雄市新興區幸福路 520 號
+                    </p>                
+                </div>
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--justify-end">
+                    <img src="images/sm-今天是個吃甜點的好日子@2x.png" class="footer--rightImg" alt="">
+                </div>
+                <div class="pure-g w-100">
+                    <div class="pure-u-1-1 pure-u-lg-1-2">
+                        <img src="images/ic-line@.png" alt="">
+                        <img src="images/ic-facebook.png" alt="">
+                    </div>
+                    <div class="pure-u-1-1 pure-u-lg-1-2 text-footer">
+                        <p class="text--primary fw-600">© 2018 Sweetaste* All Rights Reserved</p>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

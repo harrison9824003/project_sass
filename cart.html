@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/base-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./javascripts/all.js"></script>
+</head>
+<body>
+    <nav class="container d--flex position-relative">
+        <a class="logo" href="./index.html">
+            <picture>
+                <source media="(min-width: 576px)" srcset="./images/logo-all-dark@2x.png">
+                <img src="./images/logotype-lg-dark@2x.png" alt="">
+            </picture>
+        </a>
+        <div class="ms--auto nav--list--out d--flex">
+            <div class="nav--list--btn flex--slef--center nav--btn--js"><i class="bi bi-list "></i></div>
+            <ul class="nav nav--list text--primary">
+                <li class="nav--list-item"><a href="./index.html">首頁</a></li>
+                <li class="nav--list-item"><a href="./product.html">甜點</a></li>
+                <li class="nav--list-item"><a href="./login.html">登入</a></li>
+            </ul>
+        </div>
+        <a href="./cart.html" class="d--flex nav--list-item cart--btn"><i class="bi bi-cart3 flex--slef--center text--primary"></i></a>
+    </nav>
+    <section class="container-960">
+        <div class="pure-g">
+            <div class="pure-u-lg-2-3 pure-u-1">
+                <div class="cart--title">您的購物車</div>
+                <div class="cart--item d--flex flex--justify-between flex--item--center flex--sm--wrap">
+                    <div class="cart--item--img">
+                        <img src="https://bit.ly/2QvsT63" alt="">
+                    </div>
+                    <div class="cart--item--content d--flex flex--justify-center flex--lg--column">
+                        <div class="cart--item--name">
+                            <p class="fs-2 cart--item--text">焦糖馬卡龍</p>
+                            <p class="fs-1 cart--item--text">NT$ 450</p>
+                        </div>
+                        <div class="cart--item--num d--flex flex--item--center ms-lg-1">
+                            <button type="button" class="cart--item--btn btn-minus">-</button>
+                            <input type="number" class="cart--item--btn cart-numbers" value="2">
+                            <button type="button" class="cart--item--btn btn-plus">+</button>
+                        </div>
+                    </div> 
+                    <div class="cart--item--footer d--flex flex--justify-end">
+                        <div class="cart--item--price">
+                            NT$ <span class="item--cost">900</span>
+                        </div>
+                        <button type="button" class="ms-lg-1 cart--delete--btn btn-delete-cart">
+                            <i class="bi bi-trash-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="cart--item d--flex flex--justify-between flex--item--center flex--sm--wrap">
+                    <div class="cart--item--img">
+                        <img src="https://bit.ly/2NcDVuB" alt="">
+                    </div>
+                    <div class="cart--item--content d--flex flex--justify-center flex--lg--column">
+                        <div class="cart--item--name">
+                            <p class="fs-2 cart--item--text">焦糖馬卡龍</p>
+                            <p class="fs-1 cart--item--text">NT$ 450</p>
+                        </div>
+                        <div class="cart--item--num d--flex flex--item--center ms-lg-1">
+                            <button type="button" class="cart--item--btn btn-minus">-</button>
+                            <input type="number" class="cart--item--btn cart-numbers" value="2">
+                            <button type="button" class="cart--item--btn btn-plus">+</button>
+                        </div>
+                    </div> 
+                    <div class="cart--item--footer d--flex flex--justify-end">
+                        <div class="cart--item--price">
+                            NT$ <span class="item--cost">900</span>
+                        </div>
+                        <button type="button" class="ms-lg-1 cart--delete--btn btn-delete-cart">
+                            <i class="bi bi-trash-fill"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="cart--item d--flex flex--justify-between flex--item--center flex--sm--wrap">
+                    <div class="cart--item--img">
+                        <img src="https://bit.ly/2zKOP7w" alt="">
+                    </div>
+                    <div class="cart--item--content d--flex flex--justify-center flex--lg--column">
+                        <div class="cart--item--name">
+                            <p class="fs-2 cart--item--text">焦糖馬卡龍</p>
+                            <p class="fs-1 cart--item--text">NT$ 450</p>
+                        </div>
+                        <div class="cart--item--num d--flex flex--item--center ms-lg-1">
+                            <button type="button" class="cart--item--btn btn-minus">-</button>
+                            <input type="number" class="cart--item--btn cart-numbers" value="2">
+                            <button type="button" class="cart--item--btn btn-plus">+</button>
+                        </div>
+                    </div> 
+                    <div class="cart--item--footer d--flex flex--justify-end">
+                        <div class="cart--item--price">
+                            NT$ <span class="item--cost">900</span>
+                        </div>
+                        <button type="button" class="ms-lg-1 cart--delete--btn btn-delete-cart">
+                            <i class="bi bi-trash-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="pure-u-lg-1-3 pure-u-1">
+                <div class="cart--total">
+                    <div class="cart--total--wrapper">
+                        <div class="cart--total--title">
+                            訂單摘要
+                        </div>
+                        <div class="cart--total--content">
+                            <ul>
+                                <li class="cart--total--item">
+                                    <p>小計</p>
+                                    <p>NT$ <span class="carts--cost">2,700</span></p>
+                                </li>
+                                <li class="cart--total--item">
+                                    <p>運費</p>
+                                    <p>NT$ 300</p>
+                                </li>
+                                <li class="cart--total--items">
+                                    <p>總計</p>
+                                    <p>NT$ <span class="total--cost">3,000</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <button type="button" class="cart--total--btn" onclick="window.location='./checkout1.html'">
+                        結帳
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <form action="" class="footer--search" onsubmit="javascript:return false;">
+            <div class="container-960 pure-g">
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--item--center flex--lg--justify-start flex--justify-center">
+                    <img src="images/logo-light@2x.png" class="footer--search--icon" alt="">
+                    <p class="text--lg d--inline--block">訂閱你我的甜蜜郵件</p>
+                </div>
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--item--center flex--lg--justify-end flex--justify-center">
+                    <div class="input--inside-icon">
+                        <i class="bi bi-envelope-open-fill input-icon"></i>
+                        <input type="text" class="form--input form--icon--input">
+                        <button type="submit" class="form--btn"><i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>            
+        </form>
+        <div class="footer--block bg--light">
+            <div class="container-960 pure-g">
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--column">
+                    <img src="images/logotype-lg-dark@2x.png" class="footer--titleImg" alt="">
+                    <p class="mt--auto text--primary fw-600 lh--lg f--address">
+                        07-1234-5678 <br> 
+                        sweetaste@email.com <br> 
+                        800 高雄市新興區幸福路 520 號
+                    </p>                
+                </div>
+                <div class="pure-u-1-1 pure-u-lg-1-2 d--flex flex--justify-end">
+                    <img src="images/sm-今天是個吃甜點的好日子@2x.png" class="footer--rightImg" alt="">
+                </div>
+                <div class="pure-g w-100">
+                    <div class="pure-u-1-1 pure-u-lg-1-2">
+                        <img src="images/ic-line@.png" alt="">
+                        <img src="images/ic-facebook.png" alt="">
+                    </div>
+                    <div class="pure-u-1-1 pure-u-lg-1-2 text-footer">
+                        <p class="text--primary fw-600">© 2018 Sweetaste* All Rights Reserved</p>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

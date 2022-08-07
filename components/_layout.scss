@@ -1,0 +1,88 @@
+.product--card {
+    width: 300px;
+    height: 436px;
+    background-color: #EAF0ED;
+    position: relative;
+    margin: 20px 10px;
+    box-shadow: 5px 5px 5px #3F5D45;
+    margin-bottom: 30px;
+}
+
+.card--titleTag {
+    background-color: #3F5D45;
+    color: white;
+    // width: 36px;
+    // height: 106px;
+    padding: 10px;
+    position: absolute;
+    writing-mode: vertical-rl;
+    vertical-align: middle;
+    //text-align: center;
+    left: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card--titleIcon {
+    color: #3F5D45;
+    -webkit-text-stroke: 1px;
+    position: absolute;
+    right: 22px;
+    top: 19px;
+}
+// .card--img {
+//     width: 100%;   
+// }
+.card--img > img {
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+    background-position: center center;
+    display: block;
+}
+
+.card--content {
+    font-size: 1.5em;
+    color: #3F5D45;
+    padding: 14px 14px;
+    background-color: white;
+    
+}
+
+.card--content--title {
+    //padding: 33px 14px;
+    padding: 8px;
+}
+
+.card--content--price {
+    //padding: 14px 20px 14px 25px;
+    //padding-left: 20px;
+    padding: 8px;
+    border-left: #3F5D45 solid 1px;
+}
+
+.card--footer button {
+    height: 65px;
+    border: none;
+    color: #3F5D45;
+    font-size: 1.5em;
+}
+
+.input--inside-icon {
+    position: relative;
+    width: auto;
+    display: flex;
+}
+
+.input-icon {
+    position: absolute;
+    font-size: 20px;
+    height: 20px;
+    color: #3F5D45;
+    top: 50%;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+.form--icon--input {
+    padding-left: 40px;
+}

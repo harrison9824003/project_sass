@@ -1,0 +1,15 @@
+.success--content {
+    width: 300px;
+    top: 0px;
+    left: 50%;
+    margin-left: -150px;
+    height: 100%;
+
+    & > div {
+        margin-top: 3em;
+    }
+}
+
+.success--img {
+    width: 190px;
+}

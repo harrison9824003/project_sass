@@ -1,0 +1,13 @@
+@mixin media-lg {
+    @media (min-width: 756px) {
+        @content;
+    }    
+}
+
+@mixin media-sm {
+    @media (min-width: 375px) and (max-width: 576px) {
+        @content;
+    }    
+}
+
+/* margin */
